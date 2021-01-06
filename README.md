@@ -33,3 +33,13 @@
 - 题解：https://leetcode-cn.com/problems/roman-to-integer/solution/13-luo-ma-shu-zi-zhuan-zheng-shu-by-b86s-d4hw/
 
 
+### 4. [【14】最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)
+
+- 题目地址: https://leetcode-cn.com/problems/longest-common-prefix/
+
+> 描述： 编写一个函数来查找字符串数组中的最长公共前缀。如果不存在公共前缀，返回空字符串 ""。
+
+- 题解：https://leetcode-cn.com/problems/longest-common-prefix/solution/14-zui-chang-gong-gong-qian-zhui-by-b86s-esbu/
+
+
+
