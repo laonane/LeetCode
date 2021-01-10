@@ -57,3 +57,13 @@
 - 题解：https://leetcode-cn.com/problems/valid-parentheses/solution/20-you-xiao-de-gua-hao-by-b86srq5urb-j10k/
 
 
+### 5. [【21】合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
+
+- 题目地址: https://leetcode-cn.com/problems/merge-two-sorted-lists/
+
+> 描述： 将两个升序链表合并为一个新的 升序 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。 
+      
+
+- 题解：https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/21-he-bing-liang-ge-you-xu-lian-biao-by-0qfkp/
+
+
