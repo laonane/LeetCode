@@ -57,7 +57,7 @@
 - 题解：https://leetcode-cn.com/problems/valid-parentheses/solution/20-you-xiao-de-gua-hao-by-b86srq5urb-j10k/
 
 
-### 5. [【21】合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
+### 6. [【21】合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
 
 - 题目地址: https://leetcode-cn.com/problems/merge-two-sorted-lists/
 
@@ -65,5 +65,17 @@
       
 
 - 题解：https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/21-he-bing-liang-ge-you-xu-lian-biao-by-0qfkp/
+
+
+
+### 7. [【26】删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+
+- 题目地址: https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
+
+> 描述： 给定一个排序数组，你需要在 原地 删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
+      
+      不要使用额外的数组空间，你必须在 原地 修改输入数组 并在使用 O(1) 额外空间的条件下完成。
+
+- 题解：https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/solution/26-shan-chu-pai-xu-shu-zu-zhong-de-zhong-c5w0/
 
 
