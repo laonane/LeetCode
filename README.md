@@ -1,6 +1,6 @@
 # 老衲的 LeetCode
 
-## day 1（2021-01-02）
+## Easy（2021-01-02）
 
 ### 1. [【7】整数反转](https://leetcode-cn.com/problems/reverse-integer/)
 
