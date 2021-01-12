@@ -79,3 +79,19 @@
 - 题解：https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/solution/26-shan-chu-pai-xu-shu-zu-zhong-de-zhong-c5w0/
 
 
+
+
+### 8. [【27】移除元素](https://leetcode-cn.com/problems/remove-element/)
+
+- 题目地址: https://leetcode-cn.com/problems/remove-element/
+
+> 描述： 给你一个数组 nums 和一个值 val，你需要 原地 移除所有数值等于 val 的元素，并返回移除后数组的新长度。
+      
+      不要使用额外的数组空间，你必须仅使用 O(1) 额外空间并 原地 修改输入数组。
+      
+      元素的顺序可以改变。你不需要考虑数组中超出新长度后面的元素。
+      
+
+- 题解：https://leetcode-cn.com/problems/remove-element/solution/27-yi-chu-yuan-su-by-b86srq5urb-p1sl/
+
+
