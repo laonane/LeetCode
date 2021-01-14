@@ -80,7 +80,6 @@
 
 
 
-
 ### 8. [【27】移除元素](https://leetcode-cn.com/problems/remove-element/)
 
 - 题目地址: https://leetcode-cn.com/problems/remove-element/
@@ -93,5 +92,16 @@
       
 
 - 题解：https://leetcode-cn.com/problems/remove-element/solution/27-yi-chu-yuan-su-by-b86srq5urb-p1sl/
+
+
+### 9. [【28】实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)
+
+- 题目地址: https://leetcode-cn.com/problems/implement-strstr/
+
+> 描述： 实现 strStr()函数。
+      给定一个 haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置 (从0开始)。如果不存在，则返回 -1。
+      
+
+- 题解：https://leetcode-cn.com/problems/implement-strstr/solution/28-shi-xian-strstr-by-b86srq5urb-b2sc/
 
 
