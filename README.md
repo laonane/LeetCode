@@ -105,3 +105,26 @@
 - 题解：https://leetcode-cn.com/problems/implement-strstr/solution/28-shi-xian-strstr-by-b86srq5urb-b2sc/
 
 
+
+### 10. [【35】 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)
+
+- 题目地址: https://leetcode-cn.com/problems/search-insert-position/
+
+> 描述： 给定一个排序数组和一个目标值，在数组中找到目标值，并返回其索引。如果目标值不存在于数组中，返回它将会被按顺序插入的位置。
+      你可以假设数组中无重复元素。
+
+- 题解：https://leetcode-cn.com/problems/search-insert-position/solution/35-sou-suo-cha-ru-wei-zhi-by-b86srq5urb-p3hu/
+
+
+### 11. [【38】 外观数列](https://leetcode-cn.com/problems/count-and-say/)
+
+- 题目地址: https://leetcode-cn.com/problems/count-and-say/
+
+> 描述： 给定一个正整数 n ，输出外观数列的第 n 项。
+      
+      「外观数列」是一个整数序列，从数字 1 开始，序列中的每一项都是对前一项的描述。
+
+- 题解：https://leetcode-cn.com/problems/count-and-say/solution/38-wai-guan-shu-lie-by-b86srq5urb-kknn/
+
+
+
