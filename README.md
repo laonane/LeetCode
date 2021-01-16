@@ -127,4 +127,12 @@
 - 题解：https://leetcode-cn.com/problems/count-and-say/solution/38-wai-guan-shu-lie-by-b86srq5urb-kknn/
 
 
+### 12. [【83】 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
+
+- 题目地址: https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/
+
+> 描述： 给定一个排序链表，删除所有重复的元素，使得每个元素只出现一次。
+
+- 题解：https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/solution/83-shan-chu-pai-xu-lian-biao-zhong-de-zh-6myb/
+
 

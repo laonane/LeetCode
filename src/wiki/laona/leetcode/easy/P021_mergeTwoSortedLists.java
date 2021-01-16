@@ -85,43 +85,46 @@ public class P021_mergeTwoSortedLists {
         // }
         // return listNode.next;
     }
-}
-
-/**
- * Definition for singly-linked list.
- */
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
 
 
-    @Override
-    public String toString() {
-        return "ListNode{" +
-                "val=" + val +
-                ", next=" + next +
-                '}';
-    }
+    /**
+     * Definition for singly-linked list.
+     */
+    static class ListNode {
+        int val;
+        ListNode next;
 
-    public void print() {
-        ListNode cur = this;
-        System.out.print("cur = {");
-        while (cur != null) {
-            System.out.print(cur.val +  " ->> ");
-            cur = cur.next;
+        ListNode() {
         }
-        System.out.println(" }");
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+
+
+        @Override
+        public String toString() {
+            return "ListNode{" +
+                    "val=" + val +
+                    ", next=" + next +
+                    '}';
+        }
+
+        public void print() {
+            ListNode cur = this;
+            System.out.print("cur = {");
+            while (cur != null) {
+                System.out.print(cur.val +  " ->> ");
+                cur = cur.next;
+            }
+            System.out.println(" }");
+        }
     }
+
 }
+
