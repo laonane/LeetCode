@@ -136,3 +136,12 @@
 - 题解：https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/solution/83-shan-chu-pai-xu-lian-biao-zhong-de-zh-6myb/
 
 
+### 13. [【53】 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
+
+- 题目地址: https://leetcode-cn.com/problems/maximum-subarray/
+
+> 描述： 给定一个整数数组 nums ，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
+
+- 题解：https://leetcode-cn.com/problems/maximum-subarray/solution/53-zui-da-zi-xu-he-by-b86srq5urb-oeny/
+
+
