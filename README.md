@@ -145,7 +145,7 @@
 - 题解：https://leetcode-cn.com/problems/maximum-subarray/solution/53-zui-da-zi-xu-he-by-b86srq5urb-oeny/
 
 
-### 14. [【53】 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)
+### 14. [【58】 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)
 
 - 题目地址: https://leetcode-cn.com/problems/length-of-last-word/
 
@@ -154,6 +154,19 @@
            
          说明：一个单词是指仅由字母组成、不包含任何空格字符的 最大子字符串。
 
-- 题解：https://leetcode-cn.com/problems/length-of-last-word/solution/58-zui-hou-yi-ge-dan-ci-de-chang-du-by-b-s7sw/
+- 题解1：https://leetcode-cn.com/problems/length-of-last-word/solution/58-zui-hou-yi-ge-dan-ci-de-chang-du-by-b-s7sw/
+- 题解2：https://leetcode-cn.com/problems/length-of-last-word/solution/58-zui-hou-yi-ge-dan-ci-de-chang-du-by-b-84cp/
 
 
+
+### 15. [【66】 加一](https://leetcode-cn.com/problems/plus-one/)
+
+- 题目地址: https://leetcode-cn.com/problems/plus-one/
+
+> 描述： 给定一个由 整数 组成的 非空 数组所表示的非负整数，在该数的基础上加一。
+      
+      最高位数字存放在数组的首位， 数组中每个元素只存储单个数字。
+      
+      你可以假设除了整数 0 之外，这个整数不会以零开头。
+
+- 题解：https://leetcode-cn.com/problems/plus-one/solution/66-jia-yi-by-b86srq5urb-o6kj/
