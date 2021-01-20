@@ -169,7 +169,7 @@
       
       你可以假设除了整数 0 之外，这个整数不会以零开头。
 
-- 题解：https://leetcode-cn.com/problems/plus-one/solution/66-jia-yi-by-b86srq5urb-o6kj/
+- 题解：https://leetcode-cn.com/problems/plus-one/solution/66-jia-yi-by-b86srq5urb-o6kj/ 
 
 
 ### 16. [【67】 二进制求和](https://leetcode-cn.com/problems/add-binary/)
