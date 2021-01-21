@@ -181,3 +181,18 @@
     输入为 非空 字符串且只包含数字 1 和 0。
 
 - 题解：https://leetcode-cn.com/problems/add-binary/solution/67-er-jin-zhi-qiu-he-by-b86srq5urb-sk7n/
+
+
+### 17. [【69】 二进制求和](https://leetcode-cn.com/problems/sqrtx/)
+
+- 题目地址: https://leetcode-cn.com/problems/sqrtx/
+
+> 描述： 实现 int sqrt(int x) 函数。
+    
+    计算并返回 x 的平方根，其中 x 是非负整数。
+    
+    由于返回类型是整数，结果只保留整数的部分，小数部分将被舍去。
+
+
+- 题解1(暴力破解)：https://leetcode-cn.com/problems/sqrtx/solution/69-x-de-ping-fang-gen-by-b86srq5urb-x29s/
+- 题解2(二分查找)：https://leetcode-cn.com/problems/sqrtx/solution/69-x-de-ping-fang-gen-by-b86srq5urb-nffp/
