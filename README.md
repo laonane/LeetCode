@@ -196,3 +196,16 @@
 
 - 题解1(暴力破解)：https://leetcode-cn.com/problems/sqrtx/solution/69-x-de-ping-fang-gen-by-b86srq5urb-x29s/
 - 题解2(二分查找)：https://leetcode-cn.com/problems/sqrtx/solution/69-x-de-ping-fang-gen-by-b86srq5urb-nffp/
+
+
+### 18. [【70】 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
+
+- 题目地址: https://leetcode-cn.com/problems/climbing-stairs/
+
+> 描述： 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
+    
+    每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
+    
+    注意：给定 n 是一个正整数。
+
+- 题解：https://leetcode-cn.com/problems/climbing-stairs/solution/70-pa-lou-ti-by-b86srq5urb-hp4o/
