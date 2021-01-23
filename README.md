@@ -209,3 +209,16 @@
     注意：给定 n 是一个正整数。
 
 - 题解：https://leetcode-cn.com/problems/climbing-stairs/solution/70-pa-lou-ti-by-b86srq5urb-hp4o/
+
+
+### 19. [【88】 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
+
+- 题目地址: https://leetcode-cn.com/problems/merge-sorted-array/
+
+> 描述： 给你两个有序整数数组 nums1 和 nums2，请你将 nums2 合并到 nums1 中，使 nums1 成为一个有序数组。
+    
+    初始化 nums1 和 nums2 的元素数量分别为 m 和 n 。你可以假设 nums1 的空间大小等于 m + n，
+    这样它就有足够的空间保存来自 nums2 的元素。
+
+
+- 题解：https://leetcode-cn.com/problems/merge-sorted-array/solution/88-he-bing-liang-ge-you-xu-shu-zu-by-b86-c7fk/
