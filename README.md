@@ -222,3 +222,13 @@
 
 
 - 题解：https://leetcode-cn.com/problems/merge-sorted-array/solution/88-he-bing-liang-ge-you-xu-shu-zu-by-b86-c7fk/
+
+### 20. [【118】 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)
+
+- 题目地址: https://leetcode-cn.com/problems/pascals-triangle/
+
+> 描述： 给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。
+        [杨辉三角](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
+    在杨辉三角中，每个数是它左上方和右上方的数的和。
+
+- 题解：https://leetcode-cn.com/problems/pascals-triangle/solution/118-yang-hui-san-jiao-by-b86srq5urb-ru49/
