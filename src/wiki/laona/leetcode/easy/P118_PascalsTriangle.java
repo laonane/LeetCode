@@ -1,6 +1,7 @@
 package wiki.laona.leetcode.easy;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -21,20 +22,35 @@ public class P118_PascalsTriangle {
 
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> allList = new ArrayList<>();
-        List<Integer> list;
+        // List<Integer> list;
 
+        // for (int i = 0; i < numRows; i++) {
+        //     list = new ArrayList<>();
+        //     for (int j = 0; j <= i; j++) {
+        //         if (j == 0 || j == i){
+        //             list.add(1);
+        //         }else {
+        //             Integer num1 = allList.get(i - 1).get(j - 1);
+        //             Integer num2 = allList.get(i - 1).get(j);
+        //             list.add(num1 + num2);
+        //         }
+        //     }
+        //     allList.add(list);
+        // }
+        Integer[][] arr = new Integer[numRows][];
         for (int i = 0; i < numRows; i++) {
-            list = new ArrayList<>();
+            arr[i] = new Integer[i + 1];
             for (int j = 0; j <= i; j++) {
-                if (j == 0 || j == i){
-                    list.add(1);
-                }else {
-                    Integer num1 = allList.get(i - 1).get(j - 1);
-                    Integer num2 = allList.get(i - 1).get(j);
-                    list.add(num1 + num2);
+                if (j == 0 || j == i) {
+                    arr[i][j] = 1;
+                } else {
+                    // Integer num1 = allList.get(i - 1).get(j - 1);
+                    // Integer num2 = allList.get(i - 1).get(j);
+                    // list.add(num1 + num2);
+                    arr[i][j] = arr[i - 1][j - 1] + arr[i - 1][j];
                 }
             }
-            allList.add(list);
+            allList.add(Arrays.asList(arr[i]));
         }
         return allList;
     }
