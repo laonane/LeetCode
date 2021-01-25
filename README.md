@@ -233,3 +233,13 @@
 
 - 题解1：https://leetcode-cn.com/problems/pascals-triangle/solution/118-yang-hui-san-jiao-by-b86srq5urb-ru49/
 - 题解2：https://leetcode-cn.com/problems/pascals-triangle/solution/118-yang-hui-san-jiao-by-b86srq5urb-5bgn/
+
+### 21. [【119】 杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/)
+
+- 题目地址: https://leetcode-cn.com/problems/pascals-triangle-ii/
+
+> 描述：给定一个非负索引 k，其中 k ≤ 33，返回杨辉三角的第 k 行。
+        [杨辉三角](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
+    在杨辉三角中，每个数是它左上方和右上方的数的和。
+
+- 题解：https://leetcode-cn.com/problems/pascals-triangle-ii/solution/119-yang-hui-san-jiao-ii-by-b86srq5urb-rkrh/
