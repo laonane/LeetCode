@@ -243,3 +243,16 @@
     在杨辉三角中，每个数是它左上方和右上方的数的和。
 
 - 题解：https://leetcode-cn.com/problems/pascals-triangle-ii/solution/119-yang-hui-san-jiao-ii-by-b86srq5urb-rkrh/
+
+### 22. [【121】 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
+
+- 题目地址: https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
+
+> 描述：给定一个数组 prices ，它的第 i 个元素 prices[i] 表示一支给定股票第 i 天的价格。
+
+    你只能选择 某一天 买入这只股票，并选择在 未来的某一个不同的日子 卖出该股票。设计一个算法来计算你所能获取的最大利润。
+    
+    返回你可以从这笔交易中获取的最大利润。如果你不能获取任何利润，返回 0 。
+
+
+- 题解：https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/121-mai-mai-gu-piao-de-zui-jia-shi-ji-by-k2uk/
