@@ -25,5 +25,3 @@ hs_err_pid*
 # user
 /.idea/
 *.iml
-/src/wiki/laona/leetcode/datastructure/
-/src/wiki/laona/leetcode/util/
