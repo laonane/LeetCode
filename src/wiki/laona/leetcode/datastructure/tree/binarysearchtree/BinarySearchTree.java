@@ -3,6 +3,8 @@ package wiki.laona.leetcode.datastructure.tree.binarysearchtree;
 import wiki.laona.leetcode.datastructure.tree.binarysearchtree.printer.BinaryTreeInfo;
 
 import java.util.Comparator;
+import java.util.LinkedList;
+import java.util.Queue;
 
 /**
  * @author laona
@@ -99,6 +101,48 @@ public class BinarySearchTree<E> implements IBinarySearchTree<E>, BinaryTreeInfo
     }
 
     /**
+     * 层序遍历
+     * 根节点 -> 左子树 -> 右子树（但是必须是层级递进，不能跳级）
+     */
+    public void levelOrderTraversal() {
+        if (root == null) {
+            return;
+        }
+        Queue<Node<E>> queue = new LinkedList<>();
+        queue.offer(root);
+
+        while (!queue.isEmpty()) {
+            Node<E> node = queue.poll();
+            System.out.println(node.element);
+
+            if (node.left != null) {
+                queue.offer(node.left);
+            }
+
+            if (node.right != null) {
+                queue.offer(node.right);
+            }
+        }
+    }
+
+    public void postOrder(Visitor<E> visitor) {
+        postOrder(root, visitor);
+    }
+
+    public void postOrder(Node<E> node, Visitor<E> visitor) {
+        if (node == null || visitor.stop) {
+            return;
+        }
+        postOrder(node.left, visitor);
+        postOrder(node.right, visitor);
+        if (visitor.stop) {
+            return;
+        }
+        visitor.stop = visitor.visit(node.element);
+    }
+
+
+    /**
      * 后序遍历(结果肯定是升序或者降序)
      * 左子树 ->  右子树 -> 根
      */
@@ -108,6 +152,7 @@ public class BinarySearchTree<E> implements IBinarySearchTree<E>, BinaryTreeInfo
 
     /**
      * 后序遍历
+     *
      * @param node 节点
      */
     public void postorderTraversal(Node<E> node) {
@@ -117,6 +162,23 @@ public class BinarySearchTree<E> implements IBinarySearchTree<E>, BinaryTreeInfo
         postorderTraversal(node.right);
         System.out.println(node.element);
     }
+
+    public void inOrder(Visitor<E> visitor) {
+        inOrder(root, visitor);
+    }
+
+    public void inOrder(Node<E> node, Visitor<E> visitor) {
+        if (node == null) {
+            return;
+        }
+        if (visitor.stop) {
+            return;
+        }
+        inOrder(node.left, visitor);
+        visitor.stop = visitor.visit(node.element);
+        inOrder(node.right, visitor);
+    }
+
 
     /**
      * 中序遍历(结果肯定是升序或者降序)
@@ -128,6 +190,7 @@ public class BinarySearchTree<E> implements IBinarySearchTree<E>, BinaryTreeInfo
 
     /**
      * 中序遍历
+     *
      * @param node 节点
      */
     public void inorderTraversal(Node<E> node) {
@@ -136,6 +199,25 @@ public class BinarySearchTree<E> implements IBinarySearchTree<E>, BinaryTreeInfo
         inorderTraversal(node.left);
         System.out.println(node.element);
         inorderTraversal(node.right);
+    }
+
+    public void preOrder(Visitor<E> visitor) {
+        if (visitor == null) {
+            return;
+        }
+        preOrder(root, visitor);
+    }
+
+    public void preOrder(Node<E> node, Visitor<E> visitor) {
+        if (node == null) {
+            return;
+        }
+        if (visitor.stop) {
+            return;
+        }
+        visitor.stop = visitor.visit(node.element);
+        preOrder(node.left, visitor);
+        preOrder(node.right, visitor);
     }
 
     /**
@@ -148,6 +230,7 @@ public class BinarySearchTree<E> implements IBinarySearchTree<E>, BinaryTreeInfo
 
     /**
      * 前序遍历
+     *
      * @param node 节点
      */
     public void preorderTraversal(Node<E> node) {
@@ -204,6 +287,40 @@ public class BinarySearchTree<E> implements IBinarySearchTree<E>, BinaryTreeInfo
             parentString = mNode.parent.element.toString();
         }
         return parentString + "_" + ((Node<E>) node).element;
+    }
+
+    public void levelOrder(Visitor<E> visitor) {
+        if (root == null) {
+            return;
+        }
+        Queue<Node<E>> queue = new LinkedList<>();
+        queue.offer(root);
+
+        while (!queue.isEmpty()) {
+            Node<E> node = queue.poll();
+            // System.out.println(node.element);
+            visitor.visit(node.element);
+
+            if (node.left != null) {
+                queue.offer(node.left);
+            }
+
+            if (node.right != null) {
+                queue.offer(node.right);
+            }
+        }
+    }
+
+    public static abstract class Visitor<E> {
+        /**
+         * 停止标志位
+         */
+        boolean stop;
+
+        /**
+         * @return 返回 true 停止遍历
+         */
+        abstract boolean visit(E element);
     }
 
     private static class Node<E> {

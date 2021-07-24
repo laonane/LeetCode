@@ -19,7 +19,7 @@ public abstract class AbstractTemplate {
     }
 
     /**
-     * 初始化方法，子类也可以腹泻
+     * 初始化方法，子类也可以复写
      */
     protected void init() {
         System.out.println("AbstractTemplate.init -> 抽象层已经实现，子类也可以选择覆写");

@@ -38,9 +38,116 @@ public class Main {
 
         // test6();
 
-        test7();
+        // test7();
+
+        // test8();
+
+        // test9WithVisitor();
+
+        test10WithVisitor();
+
+        test11WithVisitor();
     }
 
+    public static void test12() {
+        boolean bool = true;
+
+        // 1
+        if (bool) return;
+
+        // 2
+        if (bool) {
+            return;
+        }
+        System.out.println("bool = " + bool);
+    }
+
+    public static void test11WithVisitor() {
+        Integer[] data = new Integer[]{
+                7, 4, 9, 2, 5, 8, 11, 3, 12, 1
+        };
+
+        BinarySearchTree<Person> bst = new BinarySearchTree<>();
+
+        for (Integer val : data) {
+            bst.add(new Person(val, "laona" + val));
+        }
+
+        bst.preOrder(new BinarySearchTree.Visitor<Person>() {
+            @Override
+            public boolean visit(Person element) {
+                System.out.println("有visitor的前序遍历 = " + element);
+                return false;
+            }
+        });
+    }
+
+    public static void test10WithVisitor() {
+        Integer[] data = new Integer[]{
+                7, 4, 9, 2, 5, 8, 11, 3, 12, 1
+        };
+
+        BinarySearchTree<Person> bst = new BinarySearchTree<>();
+
+        for (Integer val : data) {
+            bst.add(new Person(val, "laona" + val));
+        }
+
+        bst.inOrder(new BinarySearchTree.Visitor<Person>() {
+            @Override
+            public boolean visit(Person element) {
+                System.out.println("有visitor的中序遍历 = " + element);
+                return false;
+            }
+        });
+    }
+
+
+    public static void test9WithVisitor() {
+        Integer[] data = new Integer[]{
+                7, 4, 9, 2, 5, 8, 11, 3, 12, 1
+        };
+
+        BinarySearchTree<Person> bst = new BinarySearchTree<>();
+
+        for (Integer val : data) {
+            bst.add(new Person(val, "laona" + val));
+        }
+
+        bst.postOrder(new BinarySearchTree.Visitor<Person>() {
+            @Override
+            public boolean visit(Person element) {
+                System.out.println("有visitor的后序遍历 = " + element);
+                return false;
+            }
+        });
+    }
+
+    /**
+     * 层序遍历
+     */
+    private static void test8() {
+        Integer[] data = new Integer[]{
+                7, 4, 9, 2, 5, 8, 11, 3, 12, 1
+        };
+
+        BinarySearchTree<Person> bst = new BinarySearchTree<>();
+
+        for (Integer val : data) {
+            bst.add(new Person(val, "laona" + val));
+        }
+        BinaryTrees.println(bst);
+        System.out.println();
+        bst.levelOrderTraversal();
+
+        bst.levelOrder(new BinarySearchTree.Visitor<Person>() {
+            @Override
+            public boolean visit(Person element) {
+                System.out.println("element = " + element);
+                return false;
+            }
+        });
+    }
 
     /**
      * 后序遍历
@@ -58,6 +165,7 @@ public class Main {
         BinaryTrees.println(bst);
 
         bst.postorderTraversal();
+
     }
 
     /**
